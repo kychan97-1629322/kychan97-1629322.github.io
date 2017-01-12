@@ -30,10 +30,34 @@
 			<img src="https://www.washington.edu/studyabroad/files/2015/02/Cherries.jpg" alt="UW Quad" style="width:50px;height:50px;margin:5px;">
 		<a href="http://www.lib.washington.edu/images2/photos/suzzallo-and-broken-obelisk-curtis-cronn">	
 			<img src="http://www.lib.washington.edu/images2/photos/suzzallo-and-broken-obelisk-curtis-cronn" alt="Suzallo" style="width:50px;height:50px;margin:5px;">
-			<img src="https://www.supercoolbeaches.com/sites/default/files/yonaha-maehama-beach.jpg" alt="Beach" style="width:700px;height:500px;margin:20px;">This is a pretty beach</img>
-			<div class="relative">
-				<img src="https://www.supercoolbeaches.com/sites/default/files/yonaha-maehama-beach.jpg" alt="Beach" style="width:500px;height:300px;margin:20px;">
-				<p class="absolute-text">Hey I am Text.</a></p>
-			</div>
+<style>
+div.background {
+  background: url(klematis.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+</style>
+</head>
+<body>
+
+<div class="background">
+  <div class="transbox">
+    <p>This is some text that is placed in the transparent box.</p>
+  </div>
+</div>
+
 	</body>
 </html>
