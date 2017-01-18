@@ -89,3 +89,9 @@ li{
 	list-style-type: none;
 	padding-left: 0px;
 }
+
+a{
+	color: #FFFFF6;
+	font-weight: bold;
+	font-size: 24px;
+}
