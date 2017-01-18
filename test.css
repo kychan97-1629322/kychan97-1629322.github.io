@@ -39,7 +39,7 @@ li{
 }
 
 #LeftNav ul{
-
+	float: left;
 }
 
 #LeftNav h3{
