@@ -28,12 +28,12 @@ li{
 }
 
 #LeftNav{
+	float: left;
 	width: 400px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
 	border:solid 8px black;
-	float: left;
 }
 
 #LeftNav img{
