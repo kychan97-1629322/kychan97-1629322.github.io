@@ -28,7 +28,6 @@ li{
 }
 
 #LeftNav{
-	float: left;
 	width: 400px;
 	margin-left: auto;
 	margin-right: auto;
@@ -36,6 +35,7 @@ li{
 	border:solid 8px black;
 	text-align: center;
 	padding-bottom: 8px;
+	float: left;
 }
 
 #LeftNav img{
