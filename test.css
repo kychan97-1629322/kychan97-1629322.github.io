@@ -27,6 +27,10 @@ li{
 }
 
 #LeftNav{
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
 	border:solid 8px black;
 }
 
@@ -43,6 +47,10 @@ li{
 }
 
 #Content{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
 	border:solid 8px black;
 }
 
