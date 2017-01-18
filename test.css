@@ -32,6 +32,7 @@ li{
 	margin-right: auto;
 	margin-bottom: 10px;
 	border:solid 8px black;
+	float: left;
 }
 
 #LeftNav img{
@@ -39,7 +40,7 @@ li{
 }
 
 #LeftNav ul{
-	float: left;
+
 }
 
 #LeftNav h3{
