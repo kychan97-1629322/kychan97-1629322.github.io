@@ -35,6 +35,7 @@ li{
 	margin-bottom: 10px;
 	border:solid 8px black;
 	text-align: center;
+	padding-bottom: 8px;
 }
 
 #LeftNav img{
@@ -58,6 +59,7 @@ li{
 	margin-bottom: 10px;
 	border:solid 8px black;
 	text-align: center;
+	padding: 15px;
 }
 
 #Footer{
