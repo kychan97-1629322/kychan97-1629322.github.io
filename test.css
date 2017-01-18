@@ -20,7 +20,7 @@ li{
 	margin-right: auto;
 	margin-bottom: 10px;
 	border:solid 8px black;
-	text-align: center
+	text-align: center;
 }
 
 #Header h1{
@@ -34,6 +34,7 @@ li{
 	margin-right: auto;
 	margin-bottom: 10px;
 	border:solid 8px black;
+	text-align: center;
 }
 
 #LeftNav img{
@@ -54,6 +55,7 @@ li{
 	margin-right: auto;
 	margin-bottom: 10px;
 	border:solid 8px black;
+	text-align: center;
 }
 
 #Footer{
@@ -62,4 +64,5 @@ li{
 	margin-right: auto;
 	margin-bottom: 10px;
 	border:solid 8px black;
+	text-align: center;
 }
