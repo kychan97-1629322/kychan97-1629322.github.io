@@ -67,6 +67,9 @@ li{
 	margin-bottom: 10px;
 	border:solid 8px black;
 	text-align: center;
+}
+
+#Footer ul{
 	list-style-type: none;
 	padding-left: 0px;
 }
