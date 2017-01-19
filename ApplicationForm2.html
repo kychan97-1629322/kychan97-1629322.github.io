@@ -2,11 +2,12 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Job Application Winter 2017</title>
+	<title>Job Application: Sales Associate</title>
+	<link rel="stylesheet" type="text/css" href="AppForm.css" />
 </head>
 <body>
 
-<h2>Job Application Winter 2017</h2>
+<h2>Job Application: Sales Associate</h2>
 
 <form action="http://gclass.alexburner.com/formtest.php" method="post">
 
@@ -104,3 +105,79 @@
 			<input type="password" name="password_r">
 		</div>
 	</fieldset>
+	
+	<fieldset>
+		<legend>Availability</legend>
+		<div class="field">
+			<label>Are you at least 18 years old?</label> 
+			<input type="radio" name="age" value="yes">Yes
+			<input type="radio" name="age" value="no">No
+		</div>
+
+		<div class="field">
+			<label>What type of position are you seeking? (check all that apply)</label>
+			<ul>
+				<input type="checkbox" name="position_pt" value="parttime">Part time
+				<input type="checkbox" name="position_ft" value="fulltime">Full time
+				<input type="checkbox" name="position_sl" value="seasonal">Seasonal
+				<input type="checkbox" name="position_tp" value="temporary">Temporary
+			</ul>
+		</div>
+		<div class="field">
+			<label>Hours available</label>
+			<table>
+				<tr>
+					<td></td>
+					<th>Sun</th>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thu</th>
+					<th>Fri</th>
+					<th>Sat</th>
+				</tr>
+				<tr>
+					<th>From</th>
+					<td><input type="time" size="5" name="su_from"></td>
+					<td><input type="time" size="5" name="mo_from"></td>
+					<td><input type="time" size="5" name="tu_from"></td>
+					<td><input type="time" size="5" name="we_from"></td>
+					<td><input type="time" size="5" name="th_from"></td>
+					<td><input type="time" size="5" name="fr_from"></td>
+					<td><input type="time" size="5" name="sa_from"></td>
+				</tr>
+				<tr>
+					<th>Until</th>
+					<td><input type="time" size="5" name="su_until"></td>
+					<td><input type="time" size="5" name="mo_until"></td>
+					<td><input type="time" size="5" name="tu_until"></td>
+					<td><input type="time" size="5" name="we_until"></td>
+					<td><input type="time" size="5" name="th_until"></td>
+					<td><input type="time" size="5" name="fr_until"></td>
+					<td><input type="time" size="5" name="sa_until"></td>
+				</tr>
+			</table>
+		</div>
+	</fieldset>
+	
+	<fieldset>
+		<legend>Personal Statement</legend>
+		<div class="field">
+			<label>What skills will you bring to the Sales Associate team?</label><br>
+			<textarea name="skills" rows="6" cols="60"></textarea>
+		</div>
+		<div class="field">
+			<label>Why are you seeking this position?</label><br>
+			<textarea name="position" rows="6" cols="60"></textarea>
+		</div>
+		<div class="field">
+			<label>Describe previous employment experience, or previous community service.</label><br>
+			<textarea name="position" rows="6" cols="60"></textarea>
+		</div>
+	</fieldset>
+
+	<input type="submit" value="Submit form">
+
+</form>
+</body>
+</html>
